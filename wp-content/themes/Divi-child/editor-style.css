@@ -1,0 +1,121 @@
+/*
+ Developed by:   Assaduzzaman Shipon     
+ Author:         Tekhive
+ Author URI:     http://dev.tekhive.net/tekhive-wp
+ Template:       Divi
+ Version:        1.0.0
+ Date:           20-07-2019       
+*/
+
+/*Header part*/
+#et-top-navigation {
+    width: 100%!important;
+}
+#top-menu-nav {
+	width: 100%!important;
+}
+#top-menu{
+	width: 100%!important;
+}
+#menu-item-316{
+	margin-left: 27%;
+}
+/*link*/
+.link_color{
+	color: #E57E25!important;
+}
+
+.footer_text_color{
+	color: #728B8E!important;
+}
+
+/*link_hover*/
+
+.link_hover{
+	color: #728B8E;
+}
+.link_hover:hover{
+	color: #E57E25;
+}
+.link_hover a{
+	color: #728B8E;
+}
+.link_hover a:hover{
+	color: #E57E25;
+}
+
+/*z-index*/
+
+.zindex_all{
+	z-index: 10!important;
+}
+
+/*image_hover_transform*/
+.image_hover_transform{
+	transition: 1s;
+}
+
+.image_hover_transform:hover{
+	transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-webkit-transform:scale(1.1);
+}
+
+/*image_overlay_text*/
+.image_overlay_text{
+	position: absolute;
+	
+}
+
+/*what_hr*/
+.modev_blurb2{
+	color: #84FAF1;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+.what_hr{
+	width: 10%;
+	align-content: left;
+	border-color: #E57E25;
+	margin-left: 0%;
+}	
+
+.what_para{
+	margin: -9% 0 0 15%;
+}
+
+.modev_blurb{
+	margin: -50% 0 0 62%;
+}
+
+}
+
+@media screen and (min-width: 981px){
+#et-top-navigation {
+    float: left!important;
+    margin-left: 16%!important; 
+}
+}
+
+@media screen and (max-width: 981px){
+#menu-item-316{
+	margin-left: 0%;
+}
+}
+
+/*.et_pb_blurb_1.et_pb_blurb {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    width: 77%;
+    background-color: rgb(246, 210, 219);
+    z-index: 0;
+    color: rgb(115, 117, 82) !important;
+    padding-top: 15% !important;
+    padding-bottom: 15% !important;
+    margin-top: -120px !important;
+    margin-right: -76px !important;
+    margin-left: 140px !important;
+    border-radius: 8px;
+    overflow: hidden;
+}*/
